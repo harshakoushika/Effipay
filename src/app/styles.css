@@ -1,0 +1,38 @@
+
+body {
+    background: linear-gradient(to right, #121212, #3d1d56, #6e1e99);
+    height: 100vh;
+    margin: 0;
+    color: white; /* Ensures text is visible */
+}
+
+#content {
+width: 700px;
+padding:20px;
+
+}
+#content-inner {
+    background-color: aliceblue;
+    padding: 1em;
+    border-radius: 10px;
+}
+#title{
+    font-weight: 400;
+    font-size: 1em;
+}
+#color{
+    width: 10px;
+    height: 10px;
+    background-color: black;
+}
+
+
+
+.app-container {
+    background-color:black; /* Light Blue Background */
+    min-height: 100vh;        /* Full screen height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
